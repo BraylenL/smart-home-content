@@ -4,7 +4,7 @@ body{
     /* padding: 0; */
     font-family: 'Times New Roman', Times, serif;
 }
-.bg{
+.top-image{
     background-color: rgba(0, 0, 0, 0.189);
     background-image: url(Home-Page/House.png);
     background-size: cover;
