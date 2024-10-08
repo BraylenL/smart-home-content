@@ -1,13 +1,12 @@
 
 
-body {
-    background-color:beige;
-}
-
 header{
    background-color: rgb(144, 117, 83);
-}
-.navbar ul{
+    background-image: url(Home-medium.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+
+   .navbar ul{
     display: flex;
     text-align: center;
     list-style-type: none;
@@ -28,25 +27,7 @@ header{
 .navbar a:hover{
     background-color: rgb(130, 105, 74)
 }
-
-.half-page-bg {
-  flex: 0 0 50%;
-  background-image: url(Home.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
 }
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 
 h1 {
     color: rgb(255, 255, 255);
