@@ -1,3 +1,5 @@
+
+
 body {
     background-color:beige;
 }
@@ -6,6 +8,8 @@ header{
    background-color: rgb(144, 117, 83);
 }
 .navbar ul{
+    display: flex;
+    text-align: center;
     list-style-type: none;
     background-color: rgb(144, 117, 83);
     padding: 0px;
@@ -25,10 +29,24 @@ header{
     background-color: rgb(130, 105, 74)
 }
 
-.navbar li{
-    float: left
-    text-align: center;
+.half-page-bg {
+  flex: 0 0 50%;
+  background-image: url(Home.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 h1 {
     color: rgb(255, 255, 255);
