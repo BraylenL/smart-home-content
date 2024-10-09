@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
     background-color: rgb(144, 117, 83);
     height: 100px;
@@ -35,6 +36,19 @@ body {
 }
 
 .navbar ul{
+=======
+
+
+header{
+   background-color: rgb(144, 117, 83);
+    background-image: url(Home-medium.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+
+   .navbar ul{
+    display: flex;
+    text-align: center;
+>>>>>>> 07a1d1f5bf6457fccb8906fc138f67ed4f35e1bf
     list-style-type: none;
     background-color: rgb(144, 117, 83);
     padding: 0px;
@@ -53,6 +67,7 @@ body {
 .navbar a:hover{
     background-color: rgb(130, 105, 74)
 }
+<<<<<<< HEAD
 
 .navbar li{
     text-align: center;
@@ -61,6 +76,8 @@ body {
 
 .text-top{
     justify-content: flex-end;
+=======
+>>>>>>> 07a1d1f5bf6457fccb8906fc138f67ed4f35e1bf
 }
 
 h1 {
