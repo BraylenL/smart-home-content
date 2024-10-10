@@ -59,8 +59,10 @@ body {
     float: left;
 }
 
-.text-top {
-    justify-content: flex-end;
+.Welcome {
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
 }
 
 
