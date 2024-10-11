@@ -70,12 +70,24 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+.images{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.701);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+}
 
-h2 {
+.text{
+    display: flex;
     color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.bottom{
+    background-color: rgb(144, 117, 83);
 }
 
 
-footer {
-    float: left;
-}

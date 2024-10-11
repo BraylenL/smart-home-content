@@ -1,15 +1,23 @@
-.top-image p {
+header {
+    background-color: rgb(144, 117, 83);
+    height: 100px;
+ }
+
+
+.top-image {
+    display: flex;
     background-color: rgba(0, 0, 0, 0.701);
     border-radius: 10px;
     padding: 10px;
-    text-align: center;
+    justify-content: center;
 }
 
 .text-top {
+    display: flex;
     color: rgb(255, 255, 255);
     width: 50%;
     font-size: xx-large;
-    align-items: center;
+    justify-content: center;
 }
 
 
@@ -38,7 +46,8 @@
     float: left;
 }
 
-.hi {
-    text-align: center;
-    flex-direction: row;
+.extra{
+    display: flex;
+    justify-content: space-around;
+    
 }
