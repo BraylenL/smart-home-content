@@ -1,7 +1,7 @@
 
 header{
     background-image: url(homes.jpg);
-   background-color: rgb(176, 176, 189);
+   background-color: beige;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -79,6 +79,7 @@ body{
 
 h1 {
     color: rgb(255, 255, 255);
+
 }
 
 .images{
