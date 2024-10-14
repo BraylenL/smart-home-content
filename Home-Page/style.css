@@ -1,4 +1,9 @@
+header {
+    background-color: rgb(144, 117, 83);
+    height: 100px;
+ }
 
+<<<<<<< HEAD
 
 header{
    background-color: rgb(144, 117, 83);
@@ -26,11 +31,40 @@ header{
     color: aliceblue;
     width: 50%;
     font-size: xx-large;
+=======
+body {
+    background-color:beige;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10px;
+>>>>>>> 3db51d1af7e765b465481ea32df9f9642dcbee15
 }
 
-   .navbar ul{
+
+.top-image {
+    background-image: url(homes.jpg);
+    background-position: center;
+    height: 900px;
+    background-size: cover;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-image p {
+    background-color: rgba(0, 0, 0, 0.701);
+    border-radius: 10px;
+    padding: 10px;
     text-align: center;
+}
+
+.text-top {
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: xxx-large;
+}
+
+.navbar ul {
     list-style-type: none;
     background-color: rgb(144, 117, 83);
     padding: 0px;
@@ -38,7 +72,7 @@ header{
     overflow: hidden;
 }
 
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -46,23 +80,39 @@ header{
     text-align: center;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: rgb(130, 105, 74)
 }
 
+<<<<<<< HEAD
 .navbar li{
+=======
+.navbar li {
+>>>>>>> 3db51d1af7e765b465481ea32df9f9642dcbee15
     text-align: center;
     float: left;
 }
+
+.Welcome {
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+}
+
 
 h1 {
     color: rgb(255, 255, 255);
 }
 
-h2{
-    color: rgb(155, 137, 109);
+.images{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.701);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
 }
 
+<<<<<<< HEAD
 footer{
     float: left;
     background-color: rgb(144, 117, 83);
@@ -72,3 +122,18 @@ footer{
 h3{
     color: (155, 137, 109); 
 }
+=======
+.text{
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.bottom{
+    background-color: rgb(144, 117, 83);
+}
+
+
+>>>>>>> 3db51d1af7e765b465481ea32df9f9642dcbee15
