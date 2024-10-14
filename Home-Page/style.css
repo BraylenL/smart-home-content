@@ -1,15 +1,13 @@
-header {
-    background-color: rgb(144, 117, 83);
-    height: 100px;
- }
-
-<<<<<<< HEAD
 
 header{
-   background-color: rgb(144, 117, 83);
-    background-image: url(Homes.jpeg);
+    background-image: url(homes.jpg);
+   background-color: rgb(176, 176, 189);
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+body{
+    background-color: beige
 }
 
 .top-image{
@@ -31,26 +29,9 @@ header{
     color: aliceblue;
     width: 50%;
     font-size: xx-large;
-=======
-body {
-    background-color:beige;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 10px;
->>>>>>> 3db51d1af7e765b465481ea32df9f9642dcbee15
 }
 
 
-.top-image {
-    background-image: url(homes.jpg);
-    background-position: center;
-    height: 900px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .top-image p {
     background-color: rgba(0, 0, 0, 0.701);
     border-radius: 10px;
@@ -66,7 +47,7 @@ body {
 
 .navbar ul {
     list-style-type: none;
-    background-color: rgb(144, 117, 83);
+    background-color: rgb(176, 176, 189);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -81,14 +62,10 @@ body {
 }
 
 .navbar a:hover {
-    background-color: rgb(130, 105, 74)
+    background-color: rgb(151, 151, 169)
 }
 
-<<<<<<< HEAD
 .navbar li{
-=======
-.navbar li {
->>>>>>> 3db51d1af7e765b465481ea32df9f9642dcbee15
     text-align: center;
     float: left;
 }
@@ -110,30 +87,12 @@ h1 {
     border-radius: 10px;
     padding: 10px;
     justify-content: center;
+    color: white;
 }
 
-<<<<<<< HEAD
-footer{
-    float: left;
-    background-color: rgb(144, 117, 83);
-    
-}
-
-h3{
-    color: (155, 137, 109); 
-}
-=======
-.text{
-    display: flex;
-    color: rgb(255, 255, 255);
-    width: 50%;
-    font-size: x-large;
-    justify-content: center;
-}
-
-.bottom{
-    background-color: rgb(144, 117, 83);
+.bottom {
+    background-color: rgb(176, 176, 189);
 }
 
 
->>>>>>> 3db51d1af7e765b465481ea32df9f9642dcbee15
+

@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(144, 117, 83);
+    background-color: rgb(176, 176, 189);
     height: 100px;
  }
 
@@ -25,7 +25,7 @@ header {
 
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(144, 117, 83);
+    background-color: rgb(176, 176, 189);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -40,7 +40,7 @@ header {
 }
 
 .navbar a:hover{
-    background-color: rgb(130, 105, 74)
+    background-color: rgb(151, 151, 169)
 }
 
 .navbar li{
@@ -74,3 +74,10 @@ img {
 .tech:nth-of-type(even) > .text-top{
     order: -1
 }
+
+.bottom {
+    background-color: rgb(176, 176, 189);
+
+}
+
+
